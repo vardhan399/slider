@@ -5,9 +5,7 @@ slides.forEach(
     (slider,index) =>{
         slider.style.left = `${index * 100}%`  //left is written as we want our pictures to change from left side of the screen
     }
-
     )
-    
     const Previous = () => {
         counter--
         slideImage()
